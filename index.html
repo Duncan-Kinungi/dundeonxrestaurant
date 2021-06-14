@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="tabs.css">
+</head>
+<body>
+    <main>
+        <section id="landing-page">
+            <div class="nav-slider">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <header class="title-background">
+                <h2 class="title" id="Restaurant-Info">Dundeonx Restaurant</h2>
+            </header>
+        </section>
+
+        <section class="nav-slider-section">
+            <button class="close-nav-slider">X</button>
+            <section class="nav-links-container">
+               <ul>
+                  <li ><a class="nav-links" href="#Menu">Menu</a></li>
+                  <li><a class="nav-links" href="#Restaurant-Info">Restaurant Info</a></li>
+               </ul>
+            
+            </section>
+        </section>
+
+        <section id="menu">
+            <h2 class="menu-title" id="Menu">Menu</h2>
+            <section class="tabs-container">
+                <section class="tabs">
+                    <button class="tabHeader active-tab" data-tab="1">Breakfirst</button>
+                    <button class="tabHeader" data-tab="2">Lunch & Dinner</button>
+                    <button class="tabHeader" data-tab="3">Drinks</button>
+                    <button class="tabHeader" data-tab="4">Deserts</button>
+                </section>
+
+                <section id="tabSection-1" class="tabSection show-tab">
+                  <p>1.Porridge<span class="menu-price">Ksh 50</span></p>
+                  <p>2.Fruit Bowl<span class="menu-price">Ksh 100</span></p>
+                  <p>3.Camel Yoghurt<span class="menu-price">Ksh 200</span></p>
+                  <p>4.Scrambled Eggs<span class="menu-price">Ksh 150</span></p>
+                  <p>5.Pancake<span class="menu-price">Ksh 90</span></p>
+                </section>
+
+                <section id="tabSection-2" class="tabSection hide-tab">
+                  <p>1.Chicken<span class="menu-price">Ksh 500</span></p>
+                  <p>2.Mukimo & Beef<span class="menu-price">Ksh 250</span></p>
+                  <p>3.Pilau<span class="menu-price">Ksh 100</span></p>
+                  <p>4.Shin & Bone<span class="menu-price">Ksh 300</span></p>
+                  <p>5.Spanish Rice Chicken<span class="menu-price">Ksh 700</span></p>
+                  <p>6.Ribs<span class="menu-price">Ksh 350</span></p>
+                </section>
+
+                <section id="tabSection-3" class="tabSection hide-tab">
+                  <p>1.Iced Tea<span class="menu-price">Ksh 50</span></p>
+                  <p>2.Cappuccino<span class="menu-price">Ksh 100</span></p>
+                  <p>3.Kenyan Regular Tea<span class="menu-price">Ksh 200</span></p>
+                  <p>4.Hot Chocolate<span class="menu-price">Ksh 150</span></p>
+                  <p>5.Lemon Ginger<span class="menu-price">Ksh 90</span></p>
+                  <p>5.Mango Juice<span class="menu-price">Ksh 90</span></p>
+                    
+                </section>
+
+                <section id="tabSection-4" class="tabSection hide-tab">
+                    <p>1. Brownie Sunday<span class="menu-price">ksh 50</span></p>
+                    <p>2. Cheesecake<span class="menu-price">Ksh 40</span></p>
+                </section>
+            </section>
+        </section>
+
+        <section id="restaurant-info">
+            <section class="info-container">
+                <section class="address-content">
+                    <h2 class="restaurant-info-title">Address</h2>
+                    <p class="address">22713- Restuarant St</p>
+                    <p class="address">Nairobi,Kenya</p>
+                    
+                </section>
+                <section class="business-hours">
+                    <h2 class="restaurant-info-title">Business Hours</h2>
+                    <p class="hours">Monday-Friday 6:00 AM -10:00PM</p>
+               <p class="hours">Saturday-Sunday 5:00PM -12:00AM</p>
+                    
+                </section>
+                <section class="contact-content">
+                    <h2 class="restaurant-info-title">Contacts</h2>
+                    <p class="phone">Call us: 0704-583-451</p>
+                </section>
+            </section>
+            
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+    <script src="tabs.js"></script>
+</body>
+</html>
